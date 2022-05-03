@@ -1,3 +1,5 @@
+* { margin: 0; padding: 0; }
+
 .title{
     font-family: 'Roboto Mono', monospace;
     font-size: 25px;
@@ -6,3 +8,47 @@
     top:02vh;
     left:3vh;
 }
+
+div{
+  margin: 15px 15px;
+}
+
+.vertical{
+    color: aliceblue;
+    opacity: 10%;
+}
+.Separation{
+    opacity:10%;
+    position:relative;
+    top:3vh;
+  }
+
+h2{
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(52, 48, 136);
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .wid{
+    border-radius: 10px;
+      width: 70%;
+      position: relative;
+      top:10px;
+      left:40px
+  }
